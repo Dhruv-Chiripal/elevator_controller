@@ -1,12 +1,10 @@
-# elevator_controller
+# Elevator_Controller
 
-This is a 4-floor elevator controller using Verilog. It handles floor requests, moves one floor at a time, and opens the door at the requested floor for 10 clock cycles.
+A simple 4-floor elevator system written in Verilog. It moves one floor at a time, handles floor requests, and opens the door when needed.
 
-## Key Features
+## Features
 
-- 3 FSM states: `IDLE`, `MOVING`, `DOOR_OPEN`
-- Floor requests via `req[3:0]`
-- Direction control (up/down)
-- Door opens on request for a short time
-
-
+- 3 states: `IDLE`, `MOVING`, `DOOR_OPEN`
+- Takes floor requests
+- Moves up or down as needed
+- Door opens for a few cycles at requested floor
