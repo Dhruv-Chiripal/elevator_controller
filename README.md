@@ -1,6 +1,8 @@
 # Elevator_Controller
 
-A simple 4-floor elevator system written in Verilog. It moves one floor at a time, handles floor requests, and opens the door when needed.
+4-Floor Elevator System in Verilog
+This is a Verilog-based elevator controller for a 4-floor building. It uses a finite state machine (FSM) and a counter to manage floor transitions and door operations efficiently.
+
 
 ## Features
 
