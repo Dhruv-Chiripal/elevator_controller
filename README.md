@@ -22,6 +22,6 @@ WAIT -- Door remains open before next action
 ## Supporting Files
 elevator_controller.v – Main design module
 tb_elevator_controller.v – Simulation testbench
-Output_Waveform – Output waveform screenshots (simulation results)
+Output_Waveform_Elevator_Controller.png – Output waveform screenshots (simulation results)
 elevator_controller_output.pdf – Terminal output log from simulation
 flowchart.pdf – FSM diagram
