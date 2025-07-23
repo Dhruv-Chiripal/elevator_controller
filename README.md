@@ -13,15 +13,15 @@ This repository contains the Verilog source code for a 4-floor elevator controll
 
 ## FSM
   
-IDLE	-- No pending requests \n
-MOVE_UP -- Moving upward to a requested floor
-MOVE_DOWN	 -- Moving downward to a requested floor
-STOP -- At requested floor, door opens
-WAIT -- Door remains open before next action
+- IDLE	-- No pending requests \n
+- MOVE_UP -- Moving upward to a requested floor
+- MOVE_DOWN	 -- Moving downward to a requested floor
+- STOP -- At requested floor, door opens
+- WAIT -- Door remains open before next action
 
 ## Supporting Files
-elevator_controller.v – Main design module
-tb_elevator_controller.v – Simulation testbench
-Output_Waveform_Elevator_Controller.png – Output waveform screenshots (simulation results)
-elevator_controller_output.pdf – Terminal output log from simulation
-flowchart.pdf – FSM diagram
+- elevator_controller.v – Main design module
+- tb_elevator_controller.v – Simulation testbench
+- Output_Waveform_Elevator_Controller.png – Output waveform screenshots (simulation results)
+- elevator_controller_output.pdf – Terminal output log from simulation
+- flowchart.pdf – FSM diagram
