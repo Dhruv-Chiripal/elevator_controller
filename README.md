@@ -13,7 +13,7 @@ This repository contains the Verilog source code for a 4-floor elevator controll
 
 ## FSM
   
-IDLE	-- No pending requests
+IDLE	-- No pending requests \n
 MOVE_UP -- Moving upward to a requested floor
 MOVE_DOWN	 -- Moving downward to a requested floor
 STOP -- At requested floor, door opens
