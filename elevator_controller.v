@@ -45,7 +45,8 @@ module elevator_controller (
                         requests[floor] <= 0;
                         state <= DOOR_OPEN;
                         door_timer <= 4'd10;
-                    end else if (requests != 4'b0000) begin
+                    end 
+                    else if (requests != 4'b0000) begin
                         state <= DECIDE_MOVE;
                     end
                 end
@@ -82,14 +83,16 @@ module elevator_controller (
                     ) begin
                         direction <= 1;
                         state <= MOVING_UP;
-                    end else if (
+                    end 
+                    else if (
                         (floor == 2'd1 && requests[0]) ||
                         (floor == 2'd2 && (requests[0] || requests[1])) ||
                         (floor == 2'd3 && (requests[0] || requests[1] || requests[2]))
                     ) begin
                         direction <= 0;
                         state <= MOVING_DOWN;
-                    end else
+                    end 
+                    else
                         state <= IDLE;
                 end
 
@@ -122,7 +125,8 @@ module elevator_controller (
                         requests[floor - 1] <= 0;
                         state <= DOOR_OPEN;
                         door_timer <= 4'd10;
-                    end else
+                    end 
+                    else
                         state <= DECIDE_MOVE;
                 end
 
