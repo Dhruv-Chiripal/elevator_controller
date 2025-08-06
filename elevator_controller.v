@@ -109,7 +109,8 @@ module elevator_controller (
                         requests[floor + 1] <= 0;
                         state <= DOOR_OPEN;
                         door_timer <= 4'd10;
-                    end else
+                    end 
+                    else
                         state <= DECIDE_MOVE;
                 end
 
